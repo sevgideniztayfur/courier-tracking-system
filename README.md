@@ -9,7 +9,7 @@ This project is written in Java enviroment. It consists spring boot framework th
 * Maven
 * Avaible port on 8080
 
-* ## Tech Stack
+## Tech Stack
 
 * H2 Database
 * Spring Boot
