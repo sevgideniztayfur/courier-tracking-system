@@ -5,24 +5,23 @@ import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Getter
+@Data
 @Builder
 @Entity
-@Table(name = "Courier_Event")
+@Table(name = "Courier_Total_Distance")
 @NoArgsConstructor
 @AllArgsConstructor
-public class CourierEvent {
+public class CourierTotalDistance {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NonNull
-    private LocalDateTime time;
-    @NonNull
     private String courierId;
     @NonNull
-    private Double latitude;
+    private Double distance;
     @NonNull
-    private Double longitude;
-
+    private LocalDateTime startTime;
+    @NonNull
+    private LocalDateTime updateTime;
 }
