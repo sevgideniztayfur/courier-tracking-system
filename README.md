@@ -1,7 +1,7 @@
 
 # Courier Tracking
 
-This project is written in Java enviroment. It consists spring boot framework that uses Java 17.
+In this project, a rest application was written for courier tracking. With the location information of the couriers, it is possible to learn which store the courier is approaching and the total distance traveled.
 
 ## Requirements
 
